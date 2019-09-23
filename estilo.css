@@ -1,40 +1,19 @@
-
 @font-face {
   font-family: "Exmouth";
   src: url("C:\Users\Christian\Desktop\Bootstrap projects\priscakes\exmouth_.ttf");
 }
+
+div.secciones {
+    text-align: center;
+}
+
+/* Navbar */
 
 a.navbar-brand {
     color: #ff1493;
     font-family: "Exmouth";
     font-size: 50px;
 }
-
-body {
-    font-family: 'Arial Nova', sans-serif;
-    color: black;
-}
-
-a {
-    color: black;
-    text-decoration:none; 
-}
-
-a:hover {
-    color: black;
-}
-
-div.secciones {
-    font-family: 'Arial Nova', sans-serif;
-    color: black;
-    text-align: center;
-}
-
-div.producto {
-    padding-top: 10px;
-}
-
-/* Navbar */
 
 .nav-link {
   background-color: white;
@@ -86,10 +65,11 @@ div.producto {
 
 .carousel-item active, .carousel-item {
     font-size: 100px;
-    font-family: 'Arial';
+    font-family: 'Bahnschrift SemiBold';
 }
 
 /* Footer */
+
 footer {
     font-size: 12px; 
     text-align: center;
