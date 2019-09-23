@@ -1,0 +1,96 @@
+
+@font-face {
+  font-family: "Exmouth";
+  src: url("C:\Users\Christian\Desktop\Bootstrap projects\priscakes\exmouth_.ttf");
+}
+
+a.navbar-brand {
+    color: #ff1493;
+    font-family: "Exmouth";
+    font-size: 50px;
+}
+
+body {
+    font-family: 'Arial Nova', sans-serif;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration:none; 
+}
+
+a:hover {
+    color: black;
+}
+
+div.secciones {
+    font-family: 'Arial Nova', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+div.producto {
+    padding-top: 10px;
+}
+
+/* Navbar */
+
+.nav-link {
+  background-color: white;
+}
+   
+.nav-link a{
+  text-decoration: none;
+}
+
+.nav-item dropdown {
+  overflow: hidden;
+}
+
+.nav-item dropdown .nav-link dropdown-toggle {   
+  border: none;
+  outline: none;
+  color: black;
+  background-color: white;
+}
+
+.nav-link a:hover, .nav-item dropdown:hover, .nav-link dropdown-toggle{
+  background-color: pink;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-menu a{
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover{
+  background-color: pink;
+}
+
+.nav-item dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Carousel */
+
+.carousel-item active, .carousel-item {
+    font-size: 100px;
+    font-family: 'Arial';
+}
+
+/* Footer */
+footer {
+    font-size: 12px; 
+    text-align: center;
+}
